@@ -23,7 +23,7 @@ namespace ImprimirPDF
             printDoc.DocumentName = "Documento911";
                 printDoc.PrintController = printController;
                 printDoc.Print(); // Print PDF document
-                printDoc.Dispose();
+                printDoc.Dispose();  
             //PrintDocument
             //using (IOStream = new FileStream(@"C:\ITC_CFDI\fappeal\Infra\OutFilePDF\SAT\FACTURA\2022\06\FFA529_PP_250693.pdf", FileMode.Open, FileAccess.Read))
             //{
